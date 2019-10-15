@@ -6,6 +6,7 @@
 
 body {
   background: #fff;
+  width: 98%;
 }
 
 nav, article, aside, footer section {
@@ -14,7 +15,9 @@ nav, article, aside, footer section {
 }
 
 nav {
+  display: inline-block;
   margin-top: 25px;
+  height: 100px;
 }
 
 #logo {
@@ -50,6 +53,7 @@ nav ul {
 nav li {
   float: left;
   padding-right: 2px;
+  height: 100px;
 }
 
 hr {
